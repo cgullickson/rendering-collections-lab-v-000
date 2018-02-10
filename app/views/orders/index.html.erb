@@ -1,9 +1,13 @@
-<h1>Invoices</h1>
+<h2>Open Orders</h2>
 <table>
   <tr>
-    <th>Invoice Id</th>
+    <th>Order Id</th>
+    <th>Product</th>
+    <th>Price</th>
     <th>Customer</th>
   </tr>
-  <%= render(@invoices) || 'No Invoices '%>
+
+    <%= render(@orders) || 'No Orders' %>
+
 
 </table>
